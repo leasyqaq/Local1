@@ -1,0 +1,5 @@
+﻿id,source,family_id,gold,target_unit,selected_sample,support,eligible,rule,outcome,vote_correct,vote_prediction,vote_output_tokens,vote_seconds,sample_1_correct,sample_1_prediction,sample_2_correct,sample_2_prediction,sample_3_correct,sample_3_prediction
+atkins_002,atkins,atkins_002,7.281443990529022,kJ/mol,1,1,3,first_eligible,both_wrong,False,-6943.4,1027,4.482681900004999,False,-6943.4,False,-6846.35,False,23.35
+atkins_007,atkins,atkins_007,168.74201883541997,g/mol,1,1,3,first_eligible,both_wrong,False,7408850000000000.0,1083,4.653671099997048,False,7408850000000000.0,False,1230.0,False,165.33
+atkins_012,atkins,atkins_012,152.6742838426953,J/(K mol),1,2,3,majority,both_wrong,False,74.97,1360,6.031185100004152,False,74.97,False,221.38,False,75.27
+atkins_013,atkins,atkins_013,131.3168233764895,K,1,1,3,first_eligible,both_wrong,False,298.15,1710,7.746433500004505,False,298.15,True,132.4,False,58.0

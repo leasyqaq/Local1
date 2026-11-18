@@ -1,0 +1,5 @@
+﻿id,family_id,target_unit,gold,cot_prediction,repaired_prediction,changed,original_correct,always_correct,adaptive_correct,program_correct,original_correct_5pct,always_correct_5pct,adaptive_correct_5pct,program_correct_5pct,outcome
+atkins_002,atkins_002,kJ/mol,7.281443990529022,23.36,23.36,False,False,False,False,False,False,False,False,False,unchanged
+atkins_007,atkins_007,g/mol,168.74201883541997,27.2,27.2,False,False,False,False,False,False,False,False,False,unchanged
+atkins_012,atkins_012,J/(K mol),152.6742838426953,146.22,146.22,False,False,False,False,False,True,True,True,True,unchanged
+atkins_013,atkins_013,K,131.3168233764895,108.7,108.7,False,False,False,False,False,False,False,False,False,unchanged

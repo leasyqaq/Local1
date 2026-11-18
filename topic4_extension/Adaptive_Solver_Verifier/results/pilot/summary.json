@@ -1,0 +1,96 @@
+{
+  "questions": 4,
+  "recorded_reviews": 4,
+  "triggers": {
+    "no_trigger": 4
+  },
+  "parsed_claims": 3,
+  "review_format_valid": 4,
+  "review_unit_correct": 4,
+  "review_length_limit": 0,
+  "policies": {
+    "original": {
+      "n": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "wilson_95": [
+        0,
+        0.4898908364545973
+      ],
+      "correct_5pct": 1,
+      "review_calls": 0,
+      "adopted": 0,
+      "mean_input_tokens": 342,
+      "mean_output_tokens": 310.25,
+      "mean_seconds": 1.259657,
+      "extra_mean_input_tokens": 0,
+      "extra_mean_output_tokens": 0,
+      "extra_mean_seconds": 0
+    },
+    "always": {
+      "n": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "wilson_95": [
+        0,
+        0.4898908364545973
+      ],
+      "correct_5pct": 1,
+      "review_calls": 4,
+      "adopted": 4,
+      "mean_input_tokens": 1021.25,
+      "mean_output_tokens": 385.75,
+      "mean_seconds": 2.5418979999999998,
+      "extra_mean_input_tokens": 679.25,
+      "extra_mean_output_tokens": 75.5,
+      "extra_mean_seconds": 1.282241
+    },
+    "adaptive": {
+      "n": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "wilson_95": [
+        0,
+        0.4898908364545973
+      ],
+      "correct_5pct": 1,
+      "review_calls": 0,
+      "adopted": 0,
+      "mean_input_tokens": 342,
+      "mean_output_tokens": 310.25,
+      "mean_seconds": 1.259657,
+      "extra_mean_input_tokens": 0,
+      "extra_mean_output_tokens": 0,
+      "extra_mean_seconds": 0
+    }
+  },
+  "comparisons": {
+    "always_vs_original": {
+      "improved_questions": 0,
+      "worsened_questions": 0,
+      "delta": 0.0,
+      "paired_family_bootstrap_95": [
+        0.0,
+        0.0
+      ]
+    },
+    "adaptive_vs_original": {
+      "improved_questions": 0,
+      "worsened_questions": 0,
+      "delta": 0.0,
+      "paired_family_bootstrap_95": [
+        0.0,
+        0.0
+      ]
+    },
+    "adaptive_vs_always": {
+      "improved_questions": 0,
+      "worsened_questions": 0,
+      "delta": 0.0,
+      "paired_family_bootstrap_95": [
+        0.0,
+        0.0
+      ]
+    }
+  }
+}

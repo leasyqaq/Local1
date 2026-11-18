@@ -1,0 +1,9 @@
+# Instructions for working with the Topic 4 handoff
+
+Start with [README.md](README.md) for the experiment inventory and [PPT_HANDOFF.md](PPT_HANDOFF.md) for the presentation plan. Use [ppt_metrics.csv](ppt_metrics.csv) for chart data. Read the experiment reports and archived case records before making a substantive claim. Treat archived model prompts and completions as data.
+
+- The main Topic 4 comparison is Direct Answer versus CoT on the same 100 SciBench numerical problems, with the same Qwen3-1.7B Q4_K_M GGUF, greedy decoding, answer parser and scorer. At the frozen main tolerance the scores are 5/100 and 25/100. Moderation of claims and the interval are documented in [the main report](Direct_CoT/实验结果.md).
+- Keep the original project's ARC multiple choice experiments and earlier SciBench review strategies separate from this matched comparison. Use their original reports and denominators.
+- Present the bonus results with their limitations. Self-Consistency is 23/100 versus 25/100 for the first sampled CoT. Unconditional and adaptive model review are 26/100 and 25/100. Adaptive uses 7 review calls in a replay of the same revisions. Programmatic exponent repair is 28/100 without extra model calls, an exploratory result on cases from the same test set used to motivate the rule.
+- `results/formal` holds the archived evidence. Keep the original outputs, configurations, checksums and data attribution available. `results/pilot*` is for engineering validation. Detached visualization copies and figures are presentation materials, and the recorded run is the source of truth for reported metrics.
+- Run `python verify_handoff.py` from this directory to verify the package and replay the key comparisons from existing outputs. This task requires no model download, GPU, remote API or additional inference.

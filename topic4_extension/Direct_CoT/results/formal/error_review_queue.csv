@@ -1,0 +1,40 @@
+﻿id,family_id,source,domain,gold,target_unit,outcome,direct_prediction,direct_unit,direct_stop,direct_result,cot_prediction,cot_unit,cot_stop,cot_result,review_reason
+atkins_021,atkins_021,atkins,physical_chemistry,87.79264214046823,J/(K mol),cot_only,29.4,J/(K mol),eos,numeric_mismatch,87.66,J/(K mol),eos,correct,changed_correctness
+atkins_029,atkins_029,atkins,physical_chemistry,3.001870921207262,atm,both_wrong,1.0,atm,eos,numeric_mismatch,0.0303,atm,eos,numeric_mismatch,sample_both_wrong
+atkins_032,atkins_032,atkins,physical_chemistry,0.38384367094128935,dimensionless,cot_only,0.42,dimensionless,eos,numeric_mismatch,0.387,dimensionless,eos,correct,changed_correctness
+atkins_041,atkins_041,atkins,physical_chemistry,4.125,kJ,cot_only,12.5,kJ,eos,numeric_mismatch,4.125,kJ,eos,correct,changed_correctness
+chemmc_000,chemmc_000,chemmc,quantum_chemistry,0.12264259661581493,nm,both_wrong,1.227,nm,eos,numeric_mismatch,1.226,nm,eos,numeric_mismatch,sample_both_wrong
+chemmc_004,wien_temperature_pair,chemmc,quantum_chemistry,5268.676281818181,K,cot_only,2880.0,K,eos,numeric_mismatch,5266.86,K,eos,correct,changed_correctness
+chemmc_007,chemmc_007,chemmc,quantum_chemistry,478.96582,N/m,both_wrong,,,eos,unparseable,2.21e-40,N/m,eos,numeric_mismatch,direct_unparseable
+chemmc_009,chemmc_009,chemmc,quantum_chemistry,473755464601769.94,Hz,both_wrong,4.186845333333333,Hz,eos,numeric_mismatch,4.747,Hz,eos,numeric_mismatch,sample_both_wrong
+chemmc_013,chemmc_013,chemmc,quantum_chemistry,91.12670505823876,nm,cot_only,1215.67,nm,eos,numeric_mismatch,91.1226,nm,eos,correct,changed_correctness
+chemmc_016,wien_wavelength_pair,chemmc,quantum_chemistry,2.897771955e-10,m,cot_only,4050.0,m,eos,numeric_mismatch,2.89777191033969e-10,m,eos,correct,changed_correctness
+chemmc_021,chemmc_021,chemmc,quantum_chemistry,0.13886,mm,cot_only,1.5,mm,eos,numeric_mismatch,0.13886,mm,eos,correct,changed_correctness
+chemmc_032,wien_temperature_pair,chemmc,quantum_chemistry,11145.27675,K,cot_only,2600.0,K,eos,numeric_mismatch,11145.28,K,eos,correct,changed_correctness
+chemmc_037,chemmc_037,chemmc,quantum_chemistry,1.602176634e-17,J,cot_only,1.602176634e-19,J,eos,numeric_mismatch,1.602e-17,J,eos,correct,changed_correctness
+fund_003,fund_003,fund,fundamental_physics,10.4,km,cot_only,2.0,km,eos,numeric_mismatch,10.4,km,eos,correct,changed_correctness
+fund_005,fund_005,fund,fundamental_physics,109.44003482817618,degree,both_wrong,120.0,degree,eos,numeric_mismatch,-179.9,degree,eos,numeric_mismatch,sample_both_wrong
+fund_006,fund_006,fund,fundamental_physics,4.0,J,cot_only,7.0,J,eos,numeric_mismatch,4.0,J,eos,correct,changed_correctness
+fund_007,fund_007,fund,fundamental_physics,7.0,J,cot_only,10.5,J,eos,numeric_mismatch,7.0,J,eos,correct,changed_correctness
+fund_012,fund_012,fund,fundamental_physics,24965.421645277776,N/C,cot_only,1.4387768775039338,N/C,eos,numeric_mismatch,25000.0,N/C,eos,correct,changed_correctness
+fund_013,fund_013,fund,fundamental_physics,2.5576819726386606e-10,N,both_wrong,2e-16,N,eos,numeric_mismatch,1.01115e-11,N,eos,numeric_mismatch,sample_both_wrong
+fund_017,fund_017,fund,fundamental_physics,1.2179703942387728e-23,J,both_wrong,0.0,J,eos,numeric_mismatch,1.89e-23,J,eos,numeric_mismatch,sample_both_wrong
+fund_021,fund_021,fund,fundamental_physics,6.0,mm,both_wrong,5.0,mm,eos,numeric_mismatch,4.0,mm,eos,numeric_mismatch,sample_both_wrong
+fund_026,fund_026,fund,fundamental_physics,52941050.03311027,N/C,both_wrong,1.4387768775039338,N/C,eos,numeric_mismatch,55200000.0,N/C,eos,numeric_mismatch,sample_both_wrong
+fund_029,fund_029,fund,fundamental_physics,0.34641016151377546,m,both_wrong,0.424,m,eos,numeric_mismatch,,,limit,unparseable,cot_unparseable;cot_length_limit
+fund_030,fund_030,fund,fundamental_physics,0.5,dimensionless,direct_only,0.5,dimensionless,eos,correct,1.0,dimensionless,eos,numeric_mismatch,changed_correctness
+fund_032,fund_032,fund,fundamental_physics,2.80860993509375,N,cot_only,1.4387768775039338,N,eos,numeric_mismatch,2.8125,N,eos,correct,changed_correctness
+fund_033,fund_033,fund,fundamental_physics,55.63250277215318,pC,cot_only,1.262969415226353,pC,eos,numeric_mismatch,55.6,pC,eos,correct,changed_correctness
+fund_046,fund_046,fund,fundamental_physics,8987551792.3,N,cot_only,9.0,N,eos,numeric_mismatch,8988000000.0,N,eos,correct,changed_correctness
+fund_047,fund_047,fund,fundamental_physics,9.3e-15,C m,cot_only,9.762,C m,eos,numeric_mismatch,9.3e-15,C m,eos,correct,changed_correctness
+fund_052,fund_052,fund,fundamental_physics,203293.6321271434,N m^2/C,cot_only,1.8,N m²/C,eos,numeric_and_unit_mismatch,203400.0,N m^2/C,eos,correct,changed_correctness;direct_unit_mismatch
+fund_055,fund_055,fund,fundamental_physics,624150907446.0763,dimensionless,cot_only,2.3256673666363636,dimensionless,eos,numeric_mismatch,624000000000.0,dimensionless,eos,correct,changed_correctness
+fund_060,fund_060,fund,fundamental_physics,1500.0,N/C,cot_only,3.0,N/C,eos,numeric_mismatch,1500.0,N/C,eos,correct,changed_correctness
+fund_063,fund_063,fund,fundamental_physics,36.64353671147134,uC,cot_only,10.3927223536,uC,eos,numeric_mismatch,36.61,uC,eos,correct,changed_correctness
+fund_065,fund_065,fund,fundamental_physics,0.19297066424662002,MC,cot_only,1.0,MC,eos,numeric_mismatch,0.1924758,MC,eos,correct,changed_correctness
+fund_069,fund_069,fund,fundamental_physics,5.006925249515417,uC/m,both_wrong,45000.0,uC/m,eos,numeric_mismatch,1.122,uC/m,eos,numeric_mismatch,sample_both_wrong
+matter_002,matter_002,matter,physical_chemistry_materials,-0.37499999999999994,J/mol,both_wrong,0.25,J/mol,eos,numeric_mismatch,-0.1667,J/mol,eos,numeric_mismatch,sample_both_wrong
+matter_010,matter_010,matter,physical_chemistry_materials,0.019998355147105438,dimensionless,both_wrong,0.5,dimensionless,eos,numeric_mismatch,,,limit,unparseable,cot_unparseable;cot_length_limit
+matter_012,matter_012,matter,physical_chemistry_materials,0.5,dimensionless,direct_only,0.5,dimensionless,eos,correct,0.0,dimensionless,eos,numeric_mismatch,changed_correctness
+thermo_012,thermo_012,thermo,thermodynamics,322.2016818906771,K,direct_only,323.15,K,eos,correct,2610.5,K,eos,numeric_mismatch,changed_correctness
+thermo_031,thermo_031,thermo,thermodynamics,169.67999999999998,Torr,cot_only,132.6,Torr,eos,numeric_mismatch,168.96,Torr,eos,correct,changed_correctness

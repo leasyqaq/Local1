@@ -1,0 +1,25 @@
+{
+  "source_commit": "e14e0ca3d3db0f02928a18d435b9c3d15656a7c5",
+  "originals": 100,
+  "previous_originals": 20,
+  "new_originals": 80,
+  "retained_variants": 6,
+  "final_records_expected": 424,
+  "new_generations_expected": 400,
+  "sha256": "927a62cddb73f04e87c338255e9cd816340959231787db3aab20d6ea9c5243e7",
+  "protocol": "Model, grammar, prompts, tokens and relative tolerance frozen. New physical quantities use atol=0; original records unchanged.",
+  "exclusions": [
+    "fund_001: acceleration requested in g but source unit is m/s^2; uniform-turn assumptions unclear.",
+    "matter_001: work-by versus work-on-system convention ambiguous.",
+    "matter_005: possible incompressibility approximation/reference discrepancy.",
+    "matter_008: relativistic versus nonrelativistic reference ambiguity at 100 keV.",
+    "matter_020: vessel geometry missing.",
+    "matter_022: refers to a preceding problem.",
+    "matter_026: near-duplicate parameter change of previous atkins_028, not counted as a new independent original."
+  ],
+  "known_reference_correction": {
+    "matter_031": "Source states g=8.91 m/s^2; K=0.5*m*(g*t)^2=39.69405 mJ, whereas source label48 mJ is inconsistent."
+  },
+  "cluster_note": "Three near-template pairs receive common family_id; use family bootstrap and report cohorts separately.",
+  "selection_note": "Purposive expansion, not random or blind independent validation. Prompts frozen, no model-output-based selection."
+}

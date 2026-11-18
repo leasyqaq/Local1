@@ -1,0 +1,45 @@
+{
+  "source_commit": "33139f48c4eab8cd94b0531d7895d50bada4da59",
+  "expanded_data_sha256": "927a62cddb73f04e87c338255e9cd816340959231787db3aab20d6ea9c5243e7",
+  "scorer_sha256": "9f22ff722f843cf00714ac03dbdedbdf26fa9aec3b002ffd48ad7708971ec545",
+  "model": "Qwen3-1.7B Q4_K_M",
+  "model_sha256": "3d0b790534fe4b79525fc3692950408dca41171676ed7e21db57af5c65ef6ab6",
+  "backend_version": "version: 1.0.0-dev (build 12404, commit cf9a9957d)\nbuilt with Clang 20.1.8 for Windows x86_64",
+  "backend_sha256": "c6e238043ffafa8609fe9e18e6d761ef6e8965eb5ba14e97341636d8a8821b00",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "device": "Vulkan0",
+  "gpu_layers": 99,
+  "threads": 4,
+  "context": 4096,
+  "thinking": false,
+  "phase": "pilot",
+  "runner_sha256": "cfe6a83a21d9e6e1d34c30b0f24ca85f6ac2b364f1ba9f4ce0b5d9c24fa51cb9",
+  "prompt_runner_sha256": "e4d5c0e5145d5a3a1af9ac94e4449bd5d2e85e03774cd789ddd30ca3b4f05eeb",
+  "baseline_records_sha256": "1bc23d00f3ba1be06e7d529b2dce26c9186daf0ec9e2f9d50313f28e838e325a",
+  "protocol_sha256": "4fb9c45cb844b69ca933093ef4fcdcb9b5913c2c76977ec4f5b8d217a8d0c614",
+  "generation": {
+    "n_predict": 768,
+    "temperature": 0.7,
+    "top_k": 20,
+    "cache_prompt": false,
+    "return_tokens": true,
+    "stop": [
+      "<|im_end|>",
+      "<|endoftext|>"
+    ],
+    "top_p": 0.8,
+    "min_p": 0.0
+  },
+  "sample_numbers": [
+    1,
+    2,
+    3
+  ],
+  "vote_relative_tolerance": 0.01,
+  "question_ids": [
+    "atkins_002",
+    "atkins_007",
+    "atkins_012",
+    "atkins_013"
+  ]
+}

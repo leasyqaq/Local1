@@ -1,0 +1,120 @@
+{
+  "repository": "https://github.com/mandyyyyii/scibench",
+  "commit": "e14e0ca3d3db0f02928a18d435b9c3d15656a7c5",
+  "retrieved": "2026-11-15T07:56:08.302Z",
+  "files": [
+    {
+      "file": "atkins.json",
+      "count": 105,
+      "url": "https://raw.githubusercontent.com/mandyyyyii/scibench/e14e0ca3d3db0f02928a18d435b9c3d15656a7c5/dataset/original/atkins.json"
+    },
+    {
+      "file": "atkins_sol.json",
+      "count": 16,
+      "url": "https://raw.githubusercontent.com/mandyyyyii/scibench/e14e0ca3d3db0f02928a18d435b9c3d15656a7c5/dataset/original/atkins_sol.json"
+    },
+    {
+      "file": "calculus.json",
+      "count": 42,
+      "url": "https://raw.githubusercontent.com/mandyyyyii/scibench/e14e0ca3d3db0f02928a18d435b9c3d15656a7c5/dataset/original/calculus.json"
+    },
+    {
+      "file": "calculus_sol.json",
+      "count": 10,
+      "url": "https://raw.githubusercontent.com/mandyyyyii/scibench/e14e0ca3d3db0f02928a18d435b9c3d15656a7c5/dataset/original/calculus_sol.json"
+    },
+    {
+      "file": "chemmc.json",
+      "count": 38,
+      "url": "https://raw.githubusercontent.com/mandyyyyii/scibench/e14e0ca3d3db0f02928a18d435b9c3d15656a7c5/dataset/original/chemmc.json"
+    },
+    {
+      "file": "chemmc_sol.json",
+      "count": 9,
+      "url": "https://raw.githubusercontent.com/mandyyyyii/scibench/e14e0ca3d3db0f02928a18d435b9c3d15656a7c5/dataset/original/chemmc_sol.json"
+    },
+    {
+      "file": "class.json",
+      "count": 56,
+      "url": "https://raw.githubusercontent.com/mandyyyyii/scibench/e14e0ca3d3db0f02928a18d435b9c3d15656a7c5/dataset/original/class.json"
+    },
+    {
+      "file": "class_sol.json",
+      "count": 7,
+      "url": "https://raw.githubusercontent.com/mandyyyyii/scibench/e14e0ca3d3db0f02928a18d435b9c3d15656a7c5/dataset/original/class_sol.json"
+    },
+    {
+      "file": "diff.json",
+      "count": 50,
+      "url": "https://raw.githubusercontent.com/mandyyyyii/scibench/e14e0ca3d3db0f02928a18d435b9c3d15656a7c5/dataset/original/diff.json"
+    },
+    {
+      "file": "diff_sol.json",
+      "count": 5,
+      "url": "https://raw.githubusercontent.com/mandyyyyii/scibench/e14e0ca3d3db0f02928a18d435b9c3d15656a7c5/dataset/original/diff_sol.json"
+    },
+    {
+      "file": "fund.json",
+      "count": 71,
+      "url": "https://raw.githubusercontent.com/mandyyyyii/scibench/e14e0ca3d3db0f02928a18d435b9c3d15656a7c5/dataset/original/fund.json"
+    },
+    {
+      "file": "fund_sol.json",
+      "count": 10,
+      "url": "https://raw.githubusercontent.com/mandyyyyii/scibench/e14e0ca3d3db0f02928a18d435b9c3d15656a7c5/dataset/original/fund_sol.json"
+    },
+    {
+      "file": "matter.json",
+      "count": 47,
+      "url": "https://raw.githubusercontent.com/mandyyyyii/scibench/e14e0ca3d3db0f02928a18d435b9c3d15656a7c5/dataset/original/matter.json"
+    },
+    {
+      "file": "matter_sol.json",
+      "count": 10,
+      "url": "https://raw.githubusercontent.com/mandyyyyii/scibench/e14e0ca3d3db0f02928a18d435b9c3d15656a7c5/dataset/original/matter_sol.json"
+    },
+    {
+      "file": "quan.json",
+      "count": 33,
+      "url": "https://raw.githubusercontent.com/mandyyyyii/scibench/e14e0ca3d3db0f02928a18d435b9c3d15656a7c5/dataset/original/quan.json"
+    },
+    {
+      "file": "quan_sol.json",
+      "count": 8,
+      "url": "https://raw.githubusercontent.com/mandyyyyii/scibench/e14e0ca3d3db0f02928a18d435b9c3d15656a7c5/dataset/original/quan_sol.json"
+    },
+    {
+      "file": "stat.json",
+      "count": 72,
+      "url": "https://raw.githubusercontent.com/mandyyyyii/scibench/e14e0ca3d3db0f02928a18d435b9c3d15656a7c5/dataset/original/stat.json"
+    },
+    {
+      "file": "stat_sol.json",
+      "count": 20,
+      "url": "https://raw.githubusercontent.com/mandyyyyii/scibench/e14e0ca3d3db0f02928a18d435b9c3d15656a7c5/dataset/original/stat_sol.json"
+    },
+    {
+      "file": "thermo.json",
+      "count": 66,
+      "url": "https://raw.githubusercontent.com/mandyyyyii/scibench/e14e0ca3d3db0f02928a18d435b9c3d15656a7c5/dataset/original/thermo.json"
+    },
+    {
+      "file": "thermo_sol.json",
+      "count": 17,
+      "url": "https://raw.githubusercontent.com/mandyyyyii/scibench/e14e0ca3d3db0f02928a18d435b9c3d15656a7c5/dataset/original/thermo_sol.json"
+    }
+  ],
+  "curated": {
+    "originals": 24,
+    "variants": 8,
+    "sha256": "d97dd047204f0b5cd3c500bcaafe339e9a272c4cb6f981d3ed6c4ed5e1bff7c1",
+    "selection": "Purposive, self-contained scalar tasks with independent analytic recalculation; no claim of full-benchmark representativeness.",
+    "domains": "Physical chemistry and thermodynamics overlap; not independent physics/chemistry domains.",
+    "rubric": "Required target unit, recomputed scalar gold, 1% relative tolerance, sensitivity at 5%.",
+    "extra_assumptions": {
+      "thermo_012": "Water specific heat 4.18 J/(g K), negligible heat loss/heater heat capacity.",
+      "thermo_024": "Standard pressure 1 bar.",
+      "thermo_034": "Molality standard state 1 mol/kg."
+    }
+  }
+}

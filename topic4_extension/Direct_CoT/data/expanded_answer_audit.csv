@@ -1,0 +1,86 @@
+﻿id,source,target_unit,gold,original_answer,original_unit,reference_expression,reference_derivation,note
+fund_003,fund,km,10.4,10.4, km,8.4+2.0,Displacements on a straight road add algebraically.,Independent recalculation from stated data. 
+fund_005,fund,degree,109.44003482817618,109, $^{\circ}$,acos(-6/(5*sqrt(13)))*180/pi,Vector dot product: cos(phi)=a.b/(|a||b|).,Independent recalculation from stated data. 
+fund_006,fund,J,4.0,4.0, J,10+2*(-3),Work-energy theorem K_f=K_i+F.d.,Independent recalculation from stated data. 
+fund_007,fund,J,7.0, 7.0, J,(3**3-2**3)+4*(0-3),Line integral of F: W=[x^3]+4 Delta y.,Independent recalculation from stated data. 
+fund_008,fund,dimensionless,4.1650451724887547e+42,4.16,$10^{42}$,8987551792.3*1.602176634e-19**2/(6.67430e-11*(9.11e-31)**2),Coulomb-to-gravitational force ratio k e^2/(G m^2).,Independent recalculation from stated data. 
+fund_009,fund,cm,3.0,3.00,$\mathrm{~cm}$,9/(1+sqrt(4)),Equal fields between positive charges; particle 1 defines x=0.,Independent recalculation from stated data. Take particle 1 at x=0 and particle 2 at x=L.
+fund_010,fund,cm,-30.0,-30, $\mathrm{~cm}$,20-(70-20)/(sqrt(4)-1),Zero field lies outside smaller charge: distance ratio sqrt(4).,Independent recalculation from stated data. 
+fund_011,fund,fC,7.779166489884835,7.78,$\mathrm{fC} $ ,pi*14.1e-12*.056**3*1e15,Integrate rho(r)*4 pi r^2 dr; Q=pi rho0 R^3.,Independent recalculation from stated data. 
+fund_012,fund,N/C,24965.421645277776,2.50,$10^4 \mathrm{~N} / \mathrm{C}$ ,8987551792.3*4e-8/.12**2,Gauss law: only inner shell contributes at r=0.12 m.,Independent recalculation from stated data. 
+fund_013,fund,N,2.5576819726386606e-10,2.6,$10^{-10} \mathrm{~N}$ ,8987551792.3*45e-12*1e-12*(1/.005**2-1/(.005+40e-6)**2),Opposite induced surface charges feel different bee fields.,Independent recalculation from stated data. 
+fund_016,fund,N/C,46.700689019760965,47,$\mathrm{~N} / \mathrm{C}$ ,sqrt(3)*8987551792.3*12e-9/2**2,Equal fields at angle 60 degrees; resultant sqrt(3) times one field.,Independent recalculation from stated data. 
+fund_017,fund,J,1.2179703942387728e-23,1.22,$10^{-23} \mathrm{~J}$ ,2*3.02e-25*46*cos(64*pi/180),Dipole potential U=-pE cos(theta); reverse theta by 180 degrees.,Independent recalculation from stated data. 
+fund_019,fund,m,1.3880940037300546,1.39, m,sqrt(8987551792.3*26e-6*47e-6/5.70),Coulomb law solved for separation.,Independent recalculation from stated data. 
+fund_021,fund,mm,6.0,6.0,$\mathrm{~mm}$ ,2+sqrt(4)*2,Same-sign charges cancel fields between them; distance ratio 2.,Independent recalculation from stated data. 
+fund_022,fund,m/s^2,3517640021544326.0,3.51,$10^{15} \mathrm{~m} / \mathrm{s}^2$ ,1.602176634e-19*2e4/9.1093837015e-31,Acceleration magnitude = |q| E/m.,Independent recalculation from stated data. 
+fund_023,fund,N/C,3.070036187622162e+21,3.07,$10^{21} \mathrm{~N} / \mathrm{C}$ ,8987551792.3*94*1.602176634e-19/(6.64e-15)**2,Surface field of uniformly charged sphere kQ/R^2.,Independent recalculation from stated data. 
+fund_026,fund,N/C,52941050.03311027,5.4,$10^7 \mathrm{~N} / \mathrm{C}$ ,6e-6/(2*8.8541878128e-12*.08**2),"Conducting plate: half the total charge on each face, E=sigma/eps0.",Independent recalculation from stated data. 
+fund_029,fund,m,0.34641016151377546,0.346,$\mathrm{~m}$ ,.600/sqrt(3),Disk field on axis: 1-z/sqrt(z^2+R^2)=1/2.,Independent recalculation from stated data. 
+fund_030,fund,dimensionless,0.5,0.5, ,.5,Maximize alpha(1-alpha) at alpha=1/2.,Independent recalculation from stated data. 
+fund_032,fund,N,2.80860993509375,2.81,N ,8987551792.3*3e-6*1.5e-6/.12**2,Coulomb force magnitude.,Independent recalculation from stated data. 
+fund_033,fund,pC,55.63250277215318,56,$\mathrm{pC}$ ,2*.5**2/8987551792.3*1e12,Charge magnitude from E=kq/r^2.,Independent recalculation from stated data. 
+fund_036,fund,N,6.635356636487214e-15,6.6,$10^{-15} \mathrm{~N}$ ,2*8987551792.3*3.6e-29*1.602176634e-19/(25e-9)**3,Far-axis dipole field E=2kp/r^3; force eE.,Independent recalculation from stated data. 
+fund_038,fund,C,-0.029333333333333336,-0.029, $C$,-4.4/150,Upward electric force balancing weight in downward electric field.,Independent recalculation from stated data. 
+fund_043,fund,C,-3e-06,-3.0,$10^{-6} \mathrm{C} $ ,-3e-6,Gauss law inside conductor requires cavity wall charge -q.,Independent recalculation from stated data. 
+fund_044,fund,uC,-45.0,-45, $\mu \mathrm{C}$,-24**2*(6/8**2-4/16**2),Sum charge/r^2 at origin is zero.,Independent recalculation from stated data. 
+fund_046,fund,N,8987551792.3,8.99, $10^9 \mathrm{~N}$,8987551792.3,Coulomb force for two 1 C charges at 1 m.,Independent recalculation from stated data. 
+fund_047,fund,C m,9.3e-15,9.30,$10^{-15} \mathrm{C} \cdot \mathrm{m}$ ,1.50e-9*6.20e-6,Electric dipole moment p=qd.,Independent recalculation from stated data. 
+fund_050,fund,N,0.2447529366524537,0.245,$\mathrm{~N}$ ,8e-5*sqrt(3000**2+600**2),"Electrostatic force magnitude |q| |E|, no gravitational force included.",Independent recalculation from stated data. 
+fund_052,fund,N m^2/C,203293.6321271434,2.0,$10^5 \mathrm{~N} \cdot \mathrm{m}^2 / \mathrm{C}$ ,1.8e-6/8.8541878128e-12,Gauss law flux=Q_enclosed/eps0.,Independent recalculation from stated data. 
+fund_053,fund,uC,0.3224459860687928,0.32,$\mu C$ ,8.8541878128e-12*2.3e5*2*pi*.06*.42*1e6,"Long-cylinder approximation, neglect end effects: Q=eps0 E 2 pi r L.",Independent recalculation from stated data. Use the ideal long-cylinder approximation and neglect end effects.
+fund_054,fund,N,8.872847883741986e-15,8.87,$10^{-15} \mathrm{~N} $ ,1000*(4*pi/3)*(.6e-6)**3*9.80665,"Water density 1000 kg/m^3, g=9.80665 m/s^2, weight=rho V g.",Independent recalculation from stated data. Take the water density as 1000 kg/m^3 and g=9.80665 m/s^2.
+fund_055,fund,dimensionless,624150907446.0763,6.3,$10^{11}$,1e-7/1.602176634e-19,Number of removed electrons = Q/e.,Independent recalculation from stated data. 
+fund_056,fund,nC,-7.5103878742406796,-7.5,$\mathrm{nC}$ ,-3000*.15**2/8987551792.3*1e9,Inward field implies negative Q=-Er^2/k.,Independent recalculation from stated data. 
+fund_060,fund,N/C,1500.0,1.5,$10^3 \mathrm{~N} / \mathrm{C}$ ,3e-6/(2e-9),Electric field magnitude = force magnitude/charge magnitude.,Independent recalculation from stated data. 
+fund_063,fund,uC,36.64353671147134,37,$\mu \mathrm{C}$ ,8.1*4*pi*.6**2,Q=sigma 4 pi r^2.,Independent recalculation from stated data. 
+fund_064,fund,C,3.208116739279969e-19,3.2, $10^{-19} \mathrm{C}$,sqrt(3.7e-9*(5e-10)**2/8987551792.3),Equal-ion charge magnitude from F=kq^2/r^2.,Independent recalculation from stated data. Report the magnitude of the ionic charge.
+fund_065,fund,MC,0.19297066424662002,0.19,$\mathrm{MC}$,2*6.02214076e+23*1.602176634e-19/1e6,Two protons per H2 molecule; positive nuclear charge only.,Independent recalculation from stated data. 
+fund_066,fund,N/C,60.665974598024995,61, $\mathrm{~N} / \mathrm{C}$,8987551792.3*9e-9*(1/(4-3)-1/4),Integrate k lambda dx/(4-x)^2 over x=0..3 m.,Independent recalculation from stated data. 
+fund_068,fund,m/s^2,1915766631188.727,1.92,$10^{12} \mathrm{~m} / \mathrm{s}^2 $ ,1.602176634e-19*2e4/1.67262192369e-27,Proton acceleration magnitude qE/m.,Independent recalculation from stated data. 
+fund_069,fund,uC/m,5.006925249515417,5.0,$\mu \mathrm{C} / \mathrm{m}$,2*pi*8.8541878128e-12*2*4.5e4*1e6,Infinite line field E=lambda/(2 pi eps0 r).,Independent recalculation from stated data. 
+chemmc_000,chemmc,nm,0.12264259661581493,0.123,nm ,6.62607015e-34/sqrt(2*9.1093837015e-31*100*1.602176634e-19)*1e9,"Nonrelativistic de Broglie wavelength h/sqrt(2mE), 100 eV.",Independent recalculation from stated data. 
+chemmc_001,chemmc,J,3.522067122604483e-19,3.52,$10^{-19} \mathrm{~J}$,6.62607015e-34*299792458.0/564e-9,Photoelectric work function at threshold hc/lambda.,Independent recalculation from stated data. 
+chemmc_004,chemmc,K,5268.676281818181,5300," $\mathrm{~K}$
+",0.002897771955/550e-9,Wien displacement law T=b/lambda_max.,Independent recalculation from stated data. 
+chemmc_006,chemmc,V,0.08191697086108884,0.082,V ,6.62607015e-34**2/(2*1.67262192369e-27*(1e-10)**2*1.602176634e-19),Proton de Broglie momentum h/lambda; kinetic energy=eV.,Independent recalculation from stated data. 
+chemmc_007,chemmc,N/m,478.96582,479,$\mathrm{~N} \cdot \mathrm{m}^{-1}$ ,2*7.31e-19*(1.81e10)**2,Match Morse quadratic coefficient D beta^2 x^2 to kx^2/2.,Independent recalculation from stated data. 
+chemmc_008,chemmc,dimensionless,3.0,3, ,3,Lyman-series Rydberg relation gives n approximately 3 for rounded wavelength.,Independent recalculation from stated data. Report the integer principal quantum number.
+chemmc_009,chemmc,Hz,473755464601769.94,4.738,$10^{14} \mathrm{~Hz}$ ,299792458.0/632.8e-9,Photon frequency c/lambda.,Independent recalculation from stated data. 
+chemmc_011,chemmc,eV,54.422772491976,54.394,$\mathrm{eV}$ ,4*13.605693122994,"Infinite-nuclear-mass Bohr energy Z^2 Ry, Z=2; score eV component only.","Independent recalculation from stated data. For scalar scoring, report only the ionization energy in eV."
+chemmc_013,chemmc,nm,91.12670505823876,91.17,nm ,1/10973731.568160*1e9,Lyman series limit lambda=1/R_infinity; score wavelength component only.,"Independent recalculation from stated data. For scalar scoring, report only the limiting wavelength in nm."
+chemmc_016,chemmc,m,2.897771955e-10,3," $10^{-10} \mathrm{~m}$
+",0.002897771955/1e7,Wien displacement law lambda_max=b/T.,Independent recalculation from stated data. 
+chemmc_021,chemmc,mm,0.13886,0.139,mm ,694.3e-9*3/.015*1000,Double-slit fringe spacing Delta y=lambda D/d.,Independent recalculation from stated data. 
+chemmc_022,chemmc,J,1.2817413072e-18,1.3,$10^{-18} \mathrm{~J} / \alpha \text {-particle}$,2*1.602176634e-19*4,Alpha particle charge +2e; energy gain q Delta V.,Independent recalculation from stated data. 
+chemmc_023,chemmc,dimensionless,1.0672327123190544e+16,1.07, $10^{16}$ photons,.002*1.06e-6/(6.62607015e-34*299792458.0),Photon count = pulse energy/(hc/lambda).,Independent recalculation from stated data. 
+chemmc_024,chemmc,1/cm,556.4735514074656,556, $\mathrm{~cm}^{-1}$,sqrt(319/(34.968852682*1.6605390666e-27/2))/(2*pi*299792458.0*100),Diatomic vibrational wavenumber sqrt(k/mu)/(2 pi c).,Independent recalculation from stated data. Report the fundamental vibrational wavenumber in cm^-1.
+chemmc_025,chemmc,J,1.9864458571489286e-15,2, $10^{-15} \mathrm{~J}$,6.62607015e-34*299792458.0/100e-12,Photon energy hc/lambda.,Independent recalculation from stated data. 
+chemmc_028,chemmc,mm,11.999999999999998,12, mm,600e-9*2/(.10e-3)*1000,First bright double-slit maximum y=lambda D/d.,Independent recalculation from stated data. 
+chemmc_030,chemmc,m,1.0061708177083333e-05,1.01, 10^{-5} \mathrm{~m},0.002897771955/288,Wien displacement law.,Independent recalculation from stated data. 
+chemmc_031,chemmc,1/s,1696497283261893.2,1.70," $
+10^{15} \text { photon } \cdot \mathrm{s}^{-1}
+$",.001*337e-9/(6.62607015e-34*299792458.0),Photon emission rate=power/(hc/lambda).,Independent recalculation from stated data. 
+chemmc_032,chemmc,K,11145.27675,11000," $\mathrm{~K}$
+",0.002897771955/260e-9,Wien temperature for Sirius as an ideal blackbody.,Independent recalculation from stated data. 
+chemmc_033,chemmc,dimensionless,2.0,2, ,2,Rydberg absorption near n=4 followed by Balmer emission to n=2.,Independent recalculation from stated data. Report the final integer principal quantum number.
+chemmc_035,chemmc,N/m,314.08549143498584,313, $ \mathrm{~N} \cdot \mathrm{m}^{-1}$,(1.6605390666e-27*1.00782503223*126.9044719/(1.00782503223+126.9044719))*(2*pi*299792458.0*2309*100)**2,"Force constant k=mu omega^2, using isotope masses H-1 and I-127.",Independent recalculation from stated data. 
+chemmc_037,chemmc,J,1.602176634e-17,1.602, $10^{-17} \mathrm{~J} \cdot$ electron ${ }^{-1}$,1.602176634e-19*100,Electron energy gained through 100 V = eV.,Independent recalculation from stated data. 
+matter_000,matter,degree,2.13931520961276,2.14, ${\circ}$,2*(asin(154.433/(2*77.8))-asin(154.051/(2*77.8)))*180/pi,First-order Bragg law 2d sin(theta)=lambda; report separation in 2theta.,Independent recalculation from stated data. Use first-order Bragg diffraction and report the angular separation in 2theta.
+matter_002,matter,J/mol,-0.37499999999999994,-0.38, $\mathrm{~J} \mathrm{~mol}^{-1}$,-.60/.40*.25,"Gibbs-Duhem at fixed T,p: x_w dmu_w+x_e dmu_e=0.",Independent recalculation from stated data. 
+matter_003,matter,K,234.37049740493228,234.4, $ \mathrm{~K}$ ,234.3*exp(.517e-6*13600*9.80665*10/2292),Constant latent heat/volume integrated Clapeyron relation; pressure rise rho g h.,"Independent recalculation from stated data. Treat the molar latent heat and volume change as constant, and use g=9.80665 m/s^2."
+matter_004,matter,K,5454.561045419191,5.5, $10^3 \mathrm{~K}$,(6.62607015e-34**2/(8*9.1093837015e-31)*(1/(1e-9)**2+1/(2e-9)**2))/1.380649e-23,Two-dimensional infinite rectangular well ground energy equals k_B T.,Independent recalculation from stated data. 
+matter_006,matter,eV,3.542405669520008,3.54, $\mathrm{eV}$,6.62607015e-34*299792458.0/350e-9/1.602176634e-19,Band gap threshold energy hc/lambda.,Independent recalculation from stated data. 
+matter_010,matter,dimensionless,0.019998355147105438,0.020, ,(.505-.495)-(sin(2*pi*.505)-sin(2*pi*.495))/(2*pi),Integrate normalized ground-state box probability density.,Independent recalculation from stated data. 
+matter_012,matter,dimensionless,0.5,0.5, ,.5,Ground-state box probability in half the interval by symmetry.,Independent recalculation from stated data. 
+matter_015,matter,kJ/mol,1070.2459656354977,1.07, $10^3 \mathrm{~kJ} \mathrm{~mol}^{-1}$,2*8987551792.3*1.602176634e-19*(1.85*3.33564e-30)/(100e-12)**2*6.02214076e+23/1000,Reverse aligned molecular dipole in ion field: Delta U=2pE; convert per mole.,Independent recalculation from stated data. Take the dipole initially aligned with the ion electric field.
+matter_017,matter,uT,11.399999999999999,11, $\mu \mathrm{T}$,(9.80-2.20)*1e-6*1.5*1e6,Chemical shift difference in ppm multiplied by applied field.,Independent recalculation from stated data. 
+matter_019,matter,s,0.016666666666666666,1.7, $10^{-2} \mathrm{~s}$,(1e-6)**2/(6*1e-11),Three-dimensional diffusion from center: mean exit time R^2/(6D).,Independent recalculation from stated data. Use ideal isotropic diffusion with an absorbing spherical boundary and report the mean first-exit time.
+matter_023,matter,m/s,7273895.103253708,7.27, $10^6 \mathrm{~m} \mathrm{~s}^{-1}$,6.62607015e-34/(9.1093837015e-31*100e-12),Nonrelativistic de Broglie speed h/(m lambda).,Independent recalculation from stated data. 
+matter_025,matter,dimensionless,7973.590235331029,7.97,$10^3$,sqrt(pi)*(1.4387768775039338/298.15)**(-1.5)/sqrt(3.1752*.3951*.3505),"High-temperature asymmetric-rotor partition function, symmetry number=1.",Independent recalculation from stated data. Use the high-temperature rigid-rotor approximation and rotational symmetry number 1.
+matter_028,matter,mg,15.846408154201887,16, $\mathrm{mg}$,.735*pi*(.00150/2)**2*sqrt(.300/(2*pi*8.31446261815324*500))*3600*1e6,Effusive mass flow P A sqrt(M/(2 pi R T)); M in kg/mol.,Independent recalculation from stated data. 
+matter_031,matter,mJ,39.69405000000001,48, $\mathrm{~mJ}$,.5*.001*(8.91*1)**2*1000,"Use stated g=8.91, not Earth standard g; independent correction of inconsistent source answer.",Independent recalculation from stated data. 
+matter_033,matter,eV,14.043250232176833,14, $\mathrm{eV}$,(6.62607015e-34*299792458.0/58.4e-9-.5*9.1093837015e-31*(1.59e6)**2)/1.602176634e-19,Photoionization threshold = incident photon energy minus electron kinetic energy.,Independent recalculation from stated data. 
+matter_034,matter,s,537.8587973050574,537, $\mathrm{s}$,135*sqrt(31.9988/2.01588),Graham effusion time proportional to sqrt(molar mass).,Independent recalculation from stated data. 
+matter_038,matter,g/mol,84.92488477777792,85, $\mathrm{~g} \mathrm{~mol}^{-1}$,19*(51.5/(53.3-51.5))/(500/78.1118),Ideal Raoult solution: n_solute=n_solvent*(p0/p-1).,Independent recalculation from stated data. 
+matter_045,matter,cm^3,8.680028184043948,8.7, $\mathrm{~cm}^3$,.86*.0082*.08205736608096*300/20*1000,Real-gas volume V=Z n R T/p.,Independent recalculation from stated data. 

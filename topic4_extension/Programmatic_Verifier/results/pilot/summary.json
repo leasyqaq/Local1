@@ -1,0 +1,43 @@
+{
+  "questions": 4,
+  "methods": {
+    "original": {
+      "n": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "correct_5pct": 1,
+      "extra_model_calls": 0
+    },
+    "always": {
+      "n": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "correct_5pct": 1,
+      "extra_model_calls": 4
+    },
+    "adaptive": {
+      "n": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "correct_5pct": 1,
+      "extra_model_calls": 0
+    },
+    "program": {
+      "n": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "correct_5pct": 1,
+      "extra_model_calls": 0
+    }
+  },
+  "repaired_answers": 0,
+  "improved": 0,
+  "worsened": 0,
+  "repaired_unchanged": 0,
+  "unmodified": 4,
+  "change_vs_original": 0.0,
+  "paired_family_bootstrap_95": [
+    0.0,
+    0.0
+  ]
+}

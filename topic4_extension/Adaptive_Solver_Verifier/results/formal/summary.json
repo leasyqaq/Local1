@@ -1,0 +1,98 @@
+{
+  "questions": 100,
+  "recorded_reviews": 100,
+  "triggers": {
+    "no_trigger": 93,
+    "reasoning_final_mismatch": 5,
+    "unparseable": 2
+  },
+  "parsed_claims": 61,
+  "review_format_valid": 99,
+  "review_unit_correct": 99,
+  "review_length_limit": 1,
+  "policies": {
+    "original": {
+      "n": 100,
+      "correct": 25,
+      "accuracy": 0.25,
+      "wilson_95": [
+        0.17545211362287672,
+        0.34304463548061603
+      ],
+      "correct_5pct": 27,
+      "review_calls": 0,
+      "adopted": 0,
+      "mean_input_tokens": 334.83,
+      "mean_output_tokens": 357.79,
+      "mean_seconds": 1.56803549,
+      "extra_mean_input_tokens": 0,
+      "extra_mean_output_tokens": 0,
+      "extra_mean_seconds": 0
+    },
+    "always": {
+      "n": 100,
+      "correct": 26,
+      "accuracy": 0.26,
+      "wilson_95": [
+        0.18404698464748132,
+        0.3537098944918718
+      ],
+      "correct_5pct": 28,
+      "review_calls": 100,
+      "adopted": 99,
+      "mean_input_tokens": 1054.47,
+      "mean_output_tokens": 443.95,
+      "mean_seconds": 2.05094782,
+      "extra_mean_input_tokens": 719.64,
+      "extra_mean_output_tokens": 86.16,
+      "extra_mean_seconds": 0.48291233
+    },
+    "adaptive": {
+      "n": 100,
+      "correct": 25,
+      "accuracy": 0.25,
+      "wilson_95": [
+        0.17545211362287672,
+        0.34304463548061603
+      ],
+      "correct_5pct": 27,
+      "review_calls": 7,
+      "adopted": 7,
+      "mean_input_tokens": 395.35,
+      "mean_output_tokens": 363.55,
+      "mean_seconds": 1.59946804,
+      "extra_mean_input_tokens": 60.52,
+      "extra_mean_output_tokens": 5.76,
+      "extra_mean_seconds": 0.031432550000000004
+    }
+  },
+  "comparisons": {
+    "always_vs_original": {
+      "improved_questions": 2,
+      "worsened_questions": 1,
+      "delta": 0.01,
+      "paired_family_bootstrap_95": [
+        -0.020202020202020204,
+        0.04854368932038835
+      ]
+    },
+    "adaptive_vs_original": {
+      "improved_questions": 0,
+      "worsened_questions": 0,
+      "delta": 0.0,
+      "paired_family_bootstrap_95": [
+        0.0,
+        0.0
+      ]
+    },
+    "adaptive_vs_always": {
+      "improved_questions": 1,
+      "worsened_questions": 2,
+      "delta": -0.01,
+      "paired_family_bootstrap_95": [
+        -0.04854368932038835,
+        0.020202020202020204
+      ]
+    }
+  }
+}

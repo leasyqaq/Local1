@@ -1,0 +1,97 @@
+{
+  "questions": 100,
+  "samples": 300,
+  "single_sample": {
+    "correct": 25,
+    "n": 100,
+    "accuracy": 0.25,
+    "wilson_95": [
+      0.17545211362287672,
+      0.34304463548061603
+    ],
+    "correct_5pct": 26,
+    "mean_output_tokens": 365.9,
+    "mean_seconds": 1.6271423
+  },
+  "majority_vote": {
+    "correct": 23,
+    "n": 100,
+    "accuracy": 0.23,
+    "wilson_95": [
+      0.15843265880303448,
+      0.3215438302287378
+    ],
+    "correct_5pct": 24,
+    "mean_output_tokens": 1098.61,
+    "mean_seconds": 4.86581904399982
+  },
+  "accuracy_by_sample": {
+    "1": {
+      "correct": 25,
+      "n": 100,
+      "accuracy": 0.25,
+      "wilson_95": [
+        0.17545211362287672,
+        0.34304463548061603
+      ],
+      "correct_5pct": 26,
+      "mean_output_tokens": 365.9,
+      "mean_seconds": 1.6271423
+    },
+    "2": {
+      "correct": 24,
+      "n": 100,
+      "accuracy": 0.24,
+      "wilson_95": [
+        0.16691325556948772,
+        0.33232336349814473
+      ],
+      "correct_5pct": 24,
+      "mean_output_tokens": 364.9,
+      "mean_seconds": 1.61637968
+    },
+    "3": {
+      "correct": 23,
+      "n": 100,
+      "accuracy": 0.23,
+      "wilson_95": [
+        0.15843265880303448,
+        0.3215438302287378
+      ],
+      "correct_5pct": 26,
+      "mean_output_tokens": 367.81,
+      "mean_seconds": 1.62217367
+    }
+  },
+  "pair_counts": {
+    "both_correct": 22,
+    "both_wrong": 74,
+    "single_only": 3,
+    "vote_only": 1
+  },
+  "vote_support_counts": {
+    "0": 1,
+    "1": 52,
+    "2": 21,
+    "3": 26
+  },
+  "unparseable_count": 6,
+  "length_limit_count": 4,
+  "vote_minus_single": -0.02,
+  "paired_family_bootstrap_95": [
+    -0.06,
+    0.019801980198019802
+  ],
+  "greedy_cot": {
+    "correct": 25,
+    "n": 100,
+    "accuracy": 0.25,
+    "wilson_95": [
+      0.17545211362287672,
+      0.34304463548061603
+    ],
+    "correct_5pct": 27,
+    "mean_output_tokens": 357.79,
+    "mean_seconds": 1.56803549
+  }
+}

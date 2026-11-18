@@ -1,0 +1,5 @@
+﻿id,family_id,gold,target_unit,trigger,claim_value,review_acceptable,review_stop_type,original_correct,original_correct_5pct,original_prediction,original_adopted,always_correct,always_correct_5pct,always_prediction,always_adopted,adaptive_correct,adaptive_correct_5pct,adaptive_prediction,adaptive_adopted
+atkins_002,atkins_002,7.281443990529022,kJ/mol,,23.36,True,eos,False,False,23.36,False,False,False,23.36,True,False,False,23.36,False
+atkins_007,atkins_007,168.74201883541997,g/mol,,27.2,True,eos,False,False,27.2,False,False,False,27.2,True,False,False,27.2,False
+atkins_012,atkins_012,152.6742838426953,J/(K mol),,,True,eos,False,True,146.22,False,False,True,146.22,True,False,True,146.22,False
+atkins_013,atkins_013,131.3168233764895,K,,108.7,True,eos,False,False,108.7,False,False,False,108.7,True,False,False,108.7,False

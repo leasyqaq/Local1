@@ -1,0 +1,19 @@
+{
+  "runner_sha256": "80cf927d28fb8df7ddde9435f90a431a4adcc4005a93bce185b11138e9b056e7",
+  "repair_sha256": "856eaee06dd765357276dee5abd6392012609b8717a7e8f863dfa3d639ce9128",
+  "routing_sha256": "a5aad17b8dd475d137ac79b6f8caaf6f59fce3496e2473e2852793e449caae8c",
+  "protocol_sha256": "3b496ef541a1c18fe5aa67d117f2d9b18b9ad7bf4a56789d327d45e454328ce5",
+  "phase": "pilot",
+  "source_commit": "33139f48c4eab8cd94b0531d7895d50bada4da59",
+  "expanded_data_sha256": "927a62cddb73f04e87c338255e9cd816340959231787db3aab20d6ea9c5243e7",
+  "scorer_sha256": "9f22ff722f843cf00714ac03dbdedbdf26fa9aec3b002ffd48ad7708971ec545",
+  "original_model_sha256": "3d0b790534fe4b79525fc3692950408dca41171676ed7e21db57af5c65ef6ab6",
+  "solver_records_sha256": "a2ecf2ca821db6b8795c30e8fcb6eed5ef4c7809600023a2b6e469f2981206e8",
+  "model_review_scores_sha256": "8bd8bc92b6d666772ba4061062f9542fa65a31ff68aefc87ff0bcd6707d1d157",
+  "question_ids": [
+    "atkins_002",
+    "atkins_007",
+    "atkins_012",
+    "atkins_013"
+  ]
+}

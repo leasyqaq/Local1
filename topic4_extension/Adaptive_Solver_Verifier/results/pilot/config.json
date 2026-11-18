@@ -1,0 +1,39 @@
+{
+  "source_commit": "33139f48c4eab8cd94b0531d7895d50bada4da59",
+  "expanded_data_sha256": "927a62cddb73f04e87c338255e9cd816340959231787db3aab20d6ea9c5243e7",
+  "scorer_sha256": "9f22ff722f843cf00714ac03dbdedbdf26fa9aec3b002ffd48ad7708971ec545",
+  "model": "Qwen3-1.7B Q4_K_M",
+  "model_sha256": "3d0b790534fe4b79525fc3692950408dca41171676ed7e21db57af5c65ef6ab6",
+  "backend_version": "version: 1.0.0-dev (build 12404, commit cf9a9957d)\nbuilt with Clang 20.1.8 for Windows x86_64",
+  "backend_sha256": "c6e238043ffafa8609fe9e18e6d761ef6e8965eb5ba14e97341636d8a8821b00",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "device": "Vulkan0",
+  "gpu_layers": 99,
+  "threads": 4,
+  "context": 4096,
+  "thinking": false,
+  "generation": {
+    "n_predict": 768,
+    "temperature": 0.0,
+    "top_k": 1,
+    "seed": 20261118,
+    "cache_prompt": false,
+    "return_tokens": true,
+    "stop": [
+      "<|im_end|>",
+      "<|endoftext|>"
+    ]
+  },
+  "phase": "pilot",
+  "solver_records_sha256": "a2ecf2ca821db6b8795c30e8fcb6eed5ef4c7809600023a2b6e469f2981206e8",
+  "solver_runner_sha256": "e4d5c0e5145d5a3a1af9ac94e4449bd5d2e85e03774cd789ddd30ca3b4f05eeb",
+  "runner_sha256": "1b5a2150e78a3b297b93ed36aef86159a66c2b30b99229f95a18059f25fb3854",
+  "routing_sha256": "a5aad17b8dd475d137ac79b6f8caaf6f59fce3496e2473e2852793e449caae8c",
+  "protocol_sha256": "642e1d80cb13c0a47222daa2f3d75163e5eaa0c8640407315d3937e24761ac71",
+  "question_ids": [
+    "atkins_002",
+    "atkins_007",
+    "atkins_012",
+    "atkins_013"
+  ]
+}
